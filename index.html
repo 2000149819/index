@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> Switch Statements Homework</title>
+    </head>
+    <body>
+        <h1>Switch Statements Homework</h1>
+        <p id="result"></p>
+        <p>Some interedting facts about the color teal include...</p>
+        <ul>
+            <li>Teal was first a symbol of status</li>
+            <li>Teal represents open communication and clarity of thought</li>
+            <li>Teal became an official color in 1917</li>
+            <li>Teal has different meanings in different cultures</li>
+        </ul>
+        <script>
+            var color="teal";
+            switch(color){
+                case 0:
+                    color="green";
+                    break;
+                case 1:
+                    color="blue";
+                    break;
+                case 2:
+                    color="purple";
+                    break;
+                case 3:
+                    color="red";
+                    break;
+                case 4:
+                    color="teal";
+                    break;
+                case 5:
+                    color="yellow";
+                    break;
+                case 6:
+                    color="pink";
+                    break;
+            }
+            document.getElementById("result").innerHTML="The color is "+color;
+        </script>
+    </body>
+</html>
